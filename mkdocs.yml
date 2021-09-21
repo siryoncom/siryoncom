@@ -3,7 +3,7 @@ site_description: Resmi Siryonm Yönetim Dökümanı
 site_author: none
 
 # Repository
-repo_name: ESX Framework
+repo_name: Siryoncom
 repo_url: https://github.com/siryoncom/
 edit_uri: ""
 
@@ -15,34 +15,7 @@ docs_dir: docs
 site_dir: site
 strict: true
 
-# Theme
-theme:
-  name: material
-  custom_dir: overrides
 
-  # 404 Page
-  static_templates:
-    - 404.html
-
-  # Don't include MKDoc's JavaScript
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  features:
-    - tabs
-  palette:
-    scheme: slate
-    primary: blue
-    accent: blue
-  font:
-    text: Fira Sans
-    code: Fira Mono
-  icon:
-    logo: material/school
-    repo: fontawesome/brands/github-alt
-  favicon: assets/images/favicon.png
 
 # Plugins
 plugins:
