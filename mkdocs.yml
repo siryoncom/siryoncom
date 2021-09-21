@@ -1,8 +1,0 @@
-site_name: Siryon
-
-theme:
-  name: material
-
-plugins:
-    - search:
-        separator: '[\s\-\.]+'
